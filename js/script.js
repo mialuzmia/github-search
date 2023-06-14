@@ -41,12 +41,12 @@ const renderUserCard = (user) => {
             <div class="info-icons__container">
 
                 <div class="info-icons__icon">
-                    <img src="../assets/people_outline.png" alt="icon followers">
+                    <img src="assets/people_outline.png" alt="icon followers">
                     <p class="info-icons__number">${followers}</p>
                 </div>
 
                 <div class="info-icons__icon" id="repos-button">
-                    <img src="../assets/Vector.png" alt="icon repos">
+                    <img src="assets/Vector.png" alt="icon repos">
                     <p class="info-icons__number">${public_repos}</p>
                 </div>
 
@@ -80,7 +80,7 @@ const renderUserNotFound = () => {
     <section class="not-found__container">
         <h1 class="not-found__title">Usuária Não Encontrada 😢</h1>
         <h3 class="not-found__subtitle">Pesquise Novamente</h3>
-        <img class="not-found__img" src="../assets/notfound.png" alt="imagem not found">
+        <img class="not-found__img" src="assets/notfound.png" alt="imagem not found">
     </section>
     `
 }
@@ -112,7 +112,7 @@ const renderRepos = (reposList) => {
                 <div class="repos__repo-details">
                     <p class="repo-details__text">${language ? language : ""}</p>
                     <p class="repo-details__text">
-                        <img src="../assets/star.png" alt="icone estrela dos favoritos">
+                        <img src="assets/star.png" alt="icone estrela dos favoritos">
                         ${stargazers_count}
                     </p>
                 </div>
